@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Blake Tourneur">
+    <title>Home | Birthday Party</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="css/pe-icons.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/jquery.js"></script>
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/ico/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/ico/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/ico/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" href="images/ico/apple-touch-icon-57x57.png">
+
+    <script type="text/javascript">
+    jQuery(document).ready(function($){
+	'use strict';
+      	jQuery('body').backstretch([
+	        "images/bg/bg1.jpg",
+	        "images/bg/bg2.jpg",
+	        "images/bg/bg3.jpg"
+	    ], {duration: 5000, fade: 500, centeredY: true });
+
+		$("#mapwrapper").gMap({ controls: false,
+         	scrollwheel: false,
+         	markers: [{
+              	latitude:40.7566,
+				longitude: -73.9863,
+          	icon: { image: "images/marker.png",
+              	iconsize: [44,44],
+          		iconanchor: [12,46],
+          		infowindowanchor: [12, 0] } }],
+          	icon: {
+              	image: "images/marker.png",
+             	iconsize: [26, 46],
+              	iconanchor: [12, 46],
+              	infowindowanchor: [12, 0] },
+         	latitude:40.7566,
+         	longitude: -73.9863,
+          	zoom: 14 });
+    });
+    </script>
+</head>
+<body>
+<div id="preloader"></div>
+    <header class="navbar navbar-inverse navbar-fixed-top" role="banner">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="index.html"><h1><img src="images/ico/icon.png" width="50" height="50" alt="Logo">    THE BIRTHDAY PARTY</h1></a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#services">Our beliefs</a></li>
+                    <li><a href="#about-us">Our vision</a></li>
+                    <li><a href="#meet-team">Our party members</a></li>
+                    <li><a href="#bottom">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section id="main-slider" class="no-margin">
+        <div class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="carousel-content center centered">
+                                    <h2 class="boxed animation animated-item-1 fade-down">The BIRTHDAY Party</h2>
+                                    <br>
+                                    <p class="boxed animation animated-item-2 fade-up">The people before the power.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/.item-->
+            </div><!--/.carousel-inner-->
+        </div><!--/.carousel-->
+    </section><!--/#main-slider-->
+
+    <div id="content-wrapper">
+        <section id="services" class="white">
+            <div class="container">
+            <div class="gap"></div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="center gap fade-down section-heading">
+                            <h2 class="main-title">OUR BELIEFS AND CAMPAIGNS</h2>
+                            <hr>
+                            <p>The people before the power</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="service-block">
+                            <div class="pull-left bounce-in">
+                                <i class="fas fa-hands-shaking fa fa-md"></i>
+                            </div>
+                            <div class="media-body fade-up">
+                                <h3 class="media-heading">YOUR Rights</h3>
+                                <p>To us, this includes keeping and a continuing relationship with people no matter the colour, race or cultural identity.</p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+                    <div class="col-md-4 col-sm-6">
+                        <div class="service-block">
+                            <div class="pull-left bounce-in">
+                                <i class="fas fa-hands-shaking fa fa-md"></i>
+                            </div>
+                            <div class="media-body fade-up">
+                                <h3 class="media-heading">YOUR Health</h3>
+                                <p>We will change public healthcare to being free and private hospital care still available if the people desire.</p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+                    <div class="col-md-4 col-sm-6">
+                        <div class="service-block">
+                            <div class="pull-left bounce-in">
+                                <i class="fas fa-hands-shaking fa fa-md"></i>
+                            </div>
+                            <div class="media-body fade-up">
+                                <h3 class="media-heading">YOUR Finance</h3>
+                                <p>We will boost funding for housing and make higher wages, regardless to gender identity.</p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+                </div><!--/.row-->
+                <div class="gap"></div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="service-block">
+                            <div class="pull-left bounce-in">
+                                <i class="fas fa-hands-shaking fa fa-md"></i>
+                            </div>
+                            <div class="media-body fade-up">
+                                <h3 class="media-heading">Renewable and Cheap Electricity</h3>
+                                <p>We will reduce electricity costs and fund more money on renewable electricity for a brighter future for Australia.</p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+                    <div class="col-md-4 col-sm-6">
+                        <div class="service-block">
+                            <div class="pull-left bounce-in">
+                                <i class="fas fa-hands-shaking fa fa-md"></i>
+                            </div>
+                            <div class="media-body fade-up">
+                                <h3 class="media-heading">More Infrastructure Funding</h3>
+                                <p>We will fund towards the development of infrastructure for Australia.</p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+                    <div class="col-md-4 col-sm-6">
+                        <div class="service-block">
+                            <div class="pull-left bounce-in">
+                                <i class="fas fa-hands-shaking fa fa-md"></i>
+                            </div>
+                            <div class="media-body fade-up">
+                                <h3 class="media-heading">More Jobs (Infrastructure)</h3>
+                                <p>Our infrastructure funding means that more jobs will be created every year to make Australia the place to be.</p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+                </div><!--/.row-->
+            </div>
+        </section>
+
+        <section id="about-us" class="divider-section">
+        	<div class="container">
+	            <div class="gap"></div>
+	            <div class="row">
+	                <div class="col-md-12">
+	                    <div class="center gap fade-down section-heading">
+	                        <h2 class="main-title">OUR VISION FOR AUSTRALIA</h2>
+	                        <hr>
+	                        <p>THE PEOPLE BEFORE THE POWER</p>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="row">
+	                <div class="col-md-10 col-md-offset-1 fade-up">
+	                    <p style="font-size:150%">Our vision for Australia is to rebuild the communities whilst helping the economy to increase. We aim to rebuild families destroyed by debt and health issues surrounding jobs and infrastructure. We want to build more infrastructure making more jobs for Australians which could take the financial stress of crippled families. Peoples rights includes equal jobs and pay opportunities for both men and women. We also want to invest in more renewable electricity so Australia does not have to burn fossil fuels. </p>
+
+	                    <p style="font-size:150%">These things are going to make Australia the place to live and be, this also means that people can live in a biased free environment.</p>
+	                </div>
+	                <div class="col-md-4 fade-up">
+
+	                </div>
+	            </div>
+               <div class="gap"></div>
+                <div class="row fade-up">
+                </div>
+            </div>
+        </section>
+        
+        <section id="meet-team" class="white">
+	            <div class="gap"></div>
+	            <div class="center gap fade-down section-heading">
+	                <h2 class="main-title">Our Party Members</h2>
+	                <hr>
+	                <p>THE PEOPLE BEFORE THE POWER</p>
+	            </div>
+	            <div class="gap"></div>
+
+	            <div id="meet-the-team" class="row">
+	                <div class="col-md-3 col-xs-6">
+	                    <div class="center team-member">
+                            <div class="team-image">
+                                <img class="img-responsive img-thumbnail bounce-in" src="images/team/team01.webp" alt="">
+                                <div class="overlay">
+                                    <a class="preview btn btn-outlined btn-primary" href="images/team/team01.webp" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                                </div>
+                            </div>
+	                        <div class="team-content fade-up">
+                                <h5>Lachlan Miegel<small class="role muted">Leader</small></h5>
+                                <p>lac.miegel@stjohns.sa.edu.au</p>
+	                        </div>
+	                    </div>
+	                </div>
+
+	                <div class="col-md-3 col-xs-6">
+	                    <div class="center team-member">
+                            <div class="team-image">
+                                <img class="img-responsive img-thumbnail bounce-in" src="images/team/team02.webp" alt="">
+                                <div class="overlay">
+                                    <a class="preview btn btn-outlined btn-primary" href="images/team/team02.webp" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                                </div>
+                            </div>
+	                        <div class="team-content fade-up">
+                                <h5>Sean Barger-Bos<small class="role muted">Candidate</small></h5>
+                                <p>sea.b-bos@stjohns.sa.edu.au</p>
+	                        </div>
+	                    </div>
+	                </div>
+	                <div class="col-md-3 col-xs-6">
+	                    <div class="center team-member">
+                            <div class="team-image">
+                                <img class="img-responsive img-thumbnail bounce-in" src="images/team/team03.jpg" alt="">
+                                <div class="overlay">
+                                    <a class="preview btn btn-outlined btn-primary" href="images/team/team03.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                                </div>
+                            </div>
+	                        <div class="team-content fade-up">
+                                <h5>Blake Tourneur<small class="role muted">Member</small></h5>
+                                <p>bla.tourneur@stjohns.sa.edu.au</p>
+	                        </div>
+	                    </div>
+                    </div>
+	                <div class="col-md-3 col-xs-6">
+	                    <div class="center team-member">
+                            <div class="team-image">
+    	                        <img class="img-responsive img-thumbnail bounce-in" src="images/team/team04.webp" alt="">
+                                <div class="overlay">
+                                    <a class="preview btn btn-outlined btn-primary" href="images/team/team04.webp" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                                </div>
+                            </div>
+	                        <div class="team-content fade-up">
+                                <h5>Jet Dixon<small class="role muted">Member</small></h5>
+                                <p>jet.dixon@stjohns.sa.edu.au</p>
+	                        </div>
+	                    </div>
+                    </div>
+                    <div class="col-md-3 col-xs-6">
+	                    <div class="center team-member">
+                            <div class="team-image">
+    	                        <img class="img-responsive img-thumbnail bounce-in" src="images/team/team01.jpg" alt="">
+                                <div class="overlay">
+                                    <a class="preview btn btn-outlined btn-primary" href="images/team/team01.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                                </div>
+                            </div>
+	                        <div class="team-content fade-up">
+                                <h5>Luke Wilkins<small class="role muted">Member</small></h5>
+                                <p>luk.wilkins@stjohns.sa.edu.au</p>
+	                        </div>
+	                    </div>
+                    </div>
+                    <div class="col-md-3 col-xs-6">
+	                    <div class="center team-member">
+                            <div class="team-image">
+    	                        <img class="img-responsive img-thumbnail bounce-in" src="images/team/team02.jpg" alt="">
+                                <div class="overlay">
+                                    <a class="preview btn btn-outlined btn-primary" href="images/team/team02.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                                </div>
+                            </div>
+	                        <div class="team-content fade-up">
+                                <h5>Arthur Paterson<small class="role muted">Member</small></h5>
+                                <p>art.paterson@stjohns.sa.edu.au</p>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div><!--/#meet-the-team-->
+	            <div class="gap"></div>
+	            <div class="gap"></div>
+            </div>
+        </section>
+        </div>
+
+    <div id="footer-wrapper">
+        <section id="bottom" class="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 about-us-widget">
+                        <h4>THE BIRTHDAY PARTY</h4>
+                        <p>An Offifical St Johns Grammar School Electorate Party. Remember: Vote #1 for the Birthday Party!</p>
+                    </div><!--/.col-md-3-->
+
+                    <div class="col-md-3 col-sm-6">
+                        <h4>Links</h4>
+                        <div>
+                            <ul class="arrow">
+                                <li><a href="#">Beliefs and Campaigns</a></li>
+                                <li><a href="#">Vision for Australia</a></li>
+                                <li><a href="#">Party Members</a></li>
+                            </ul>
+                        </div>
+                    </div><!--/.col-md-3-->
+
+                    <div class="col-md-3 col-sm-6">
+                        <h4>Contact us</h4>
+                        <address>
+                            Email party leader, Lachlan Miegel at<br>
+                            <a href="mailto:lac.miegel@stjohns.sa.edu.au">lac.miegel@stjohns.sa.edu.au</a><br>
+                            or contact any of us by email or in-person.
+                        </address>
+                    </div> <!--/.col-md-3-->
+                </div>
+            </div>
+        </section><!--/#bottom-->
+
+        <footer id="footer" class="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8">
+                        &copy; 2019 The Official Birthday Party. All Rights Reserved. <a href="https://templatemag.com/bootstrap-templates/">Bootstrap templates</a> by TemplateMag.
+                    </div>
+                    <div class="col-sm-4">
+                        <ul class="pull-right">
+                            <li><a id="gototop" class="gototop" href="#"><i class="fa fa-chevron-up"></i></a></li><!--#gototop-->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer><!--/#footer-->
+    </div>
+
+
+    <script src="js/plugins.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/init.js"></script>
+</body>
+</html>
